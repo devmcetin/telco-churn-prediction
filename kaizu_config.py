@@ -9,4 +9,4 @@ Kaizu Config — Bu projeyi Kaizu hesabınla bağlar.
 USER_ID = 0  # ← BURAYI DEĞİŞTİR
 
 # Bu projenin Kaizu'daki ID'si — DB insert sonrası doldurulacak, şimdilik 0.
-PROJECT_ID = 0  # ← DEĞİŞTİRME
+PROJECT_ID = 762  # ← DEĞİŞTİRME
