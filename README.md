@@ -23,6 +23,26 @@ Geçmiş müşteri verisinden yola çıkarak, bir müşterinin **ayrılıp ayrı
 
 ⚠️ **Bu gerçek dünya verisi.** Temiz, hazır bir tablo değil — içinde bir data scientist'in fark edip çözmesi gereken gerçek dünya sorunları var. Bunları senin için **tek tek saymıyoruz**; keşfetmek ve doğru şekilde ele almak işin bir parçası. (Küçük bir dürüstlük notu: hedef değişken dengeli değil.)
 
+## 🛠️ Başlarken
+
+```bash
+# 1. Bu repoyu fork'la, sonra kendi fork'unu klonla
+git clone <senin-fork-url>
+cd data-science-project-52
+
+# 2. Sanal ortam (önerilir)
+python -m venv venv
+source venv/bin/activate        # Windows: venv\Scripts\activate
+
+# 3. Önerilen kütüphaneleri kur
+pip install -r requirements.txt
+
+# 4. Analiz defterini aç ve başla
+jupyter lab
+```
+
+Boş bir `analiz.ipynb` oluşturup keşifle başlayabilirsin.
+
 ## ✅ Bizden beklentiler
 
 **Nasıl** çözeceğin sana kalmış (hangi kütüphane, hangi model, hangi yaklaşım — özgürsün). Ama iyi bir teslimatta şunları görmek istiyoruz:
@@ -40,7 +60,7 @@ Repo'nda şu üç şey olmalı:
 | Dosya | Ne olmalı |
 |---|---|
 | `analiz.ipynb` | Uçtan uca analiz defterin: keşif → temizlik → modelleme → değerlendirme, aradaki kararlarını markdown hücrelerinde **anlatarak**. |
-| `train.py` | Yeniden çalıştırılabilir bir script: veriyi okur, final modelini eğitir, sonuç metriklerini ekrana basar. (Biz `python train.py` diyip çalıştırabilmeliyiz.) |
+| `train.py` | Yeniden çalıştırılabilir bir script: veriyi okur, final modelini eğitir, sonuç metriklerini ekrana basar. (Biz `python train.py` diyip çalıştırabilmeliyiz.) — yani notebook'ta keşfettiğin akışın temiz, tek komutla çalışan hali. |
 | `RAPOR.md` | İş diliyle raporun. `RAPOR_SABLONU.md`'deki soruları cevapla. |
 
 ## 🧭 Nasıl değerlendirilecek
